@@ -1,0 +1,235 @@
+.pt-60 {
+    padding-top: 60px;
+}
+.pt-80 {
+    padding-top: 80px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.pt-120 {
+    padding-top: 120px;
+}
+.pt-150 {
+    padding-top: 150px;
+}
+.pb-60 {
+    padding-bottom: 60px;
+}
+.pb-100 {
+    padding-bottom: 100px;
+}
+.pl-60 {
+    padding-left: 60px;
+}
+.pr-60 {
+    padding-right: 60px;
+}
+.pl-120 {
+    padding-left: 120px;
+}
+.pr-120 {
+    padding-right: 120px;
+}
+.mt-0 {
+    margin-top: 0px;
+}
+.header_area {
+    padding: 0 5% !important;
+}
+.menu_area .navbar-brand {
+    font-size: 0px !important;
+}
+.menu_area .navbar-brand span {
+    font-size: 72px;
+}
+.welcome-thumb {
+    width: 50%;
+    /* bottom: -14px !important; */
+    right: 0 !important;
+}
+.bg-gray {
+    background: #f5f9fc
+}
+.bg-purple {
+    background-color: #884bdf;
+}
+.our-Team-area {
+    background-image: url('img/bg-img/background.jpg')
+}
+.special_description_content > h2 {
+    margin-bottom: 10px !important;
+}
+.special_description_content > h3 {
+    color: #726a84;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+strong {
+    color: #000000;
+}
+p {
+    font-size: 17px !important;
+}
+.section-subtitle {
+    color: #726a84;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    font-weight: 300;
+}
+.copyright-text {
+    color: #ADA9BA;
+}
+.text-gray {
+    color: #726a84;
+}
+.div-center {
+    margin: auto;
+    width: 50%;
+    padding-top: 60px;
+}
+.section-title {
+    text-transform: uppercase;
+}
+strong {
+    color: #13569a;
+    font-weight: bold;
+}
+.menu-link {
+    display: inline-block;
+}
+.menu-link:hover {
+    background-color: #f6a02f;
+}
+.modal-dialog {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+}
+@media(max-width: 768px) {
+    .modal-dialog {
+      min-height: calc(100vh - 20px);
+    }
+
+    .wellcome-heading h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+}
+.btn.btn-outline-pink {
+    color: #13569a;
+    background-color: transparent;
+    background-image: none;
+    border-color: #13569a;
+}
+.btn.btn-outline-pink:hover {
+    background: #13569a;
+    color: #fff;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+.modal-header {
+    background-color: #13569a;
+}
+.single-special-white > h4 {
+    font-size: 22px;
+    color: #13569a;
+    margin-bottom: 15px;
+}
+.single-special-white {
+    border: 1px solid #eff2f6;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 40px 40px 40px 0px;
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+    margin-bottom: 30px;
+}
+.special_description_content > h2 {
+    color: #13569a;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+.single-special p {
+    margin-bottom: 0;
+}
+.single-special-white:hover {
+    background-color: #f6a02f;
+    -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+}
+.single-special-white:hover > h4 {
+    color: #FFFFFF;
+}
+.single-special-white:hover > p {
+    color: #FFFFFF;
+}
+#homo-driver-card {
+    height: 480px;
+}
+#homo-executive-card {
+    height: 480px;
+}
+#homo-lux-card {
+    height: 480px;
+}
+#homo-taxi-card {
+    height: 480px;
+}
+#homo-pet-card {
+    height: 480px;
+}
+#homo-baby-card {
+    height: 480px;
+}
+#homo-driver-card img {
+    width: 35%;
+}
+#homo-executive-card img {
+    width: 35%;
+}
+#homo-lux-card img {
+    width: 35%;
+}
+#homo-taxi-card img {
+    width: 35%;
+}
+#homo-pet-card img {
+    width: 35%;
+}
+#homo-baby-card img {
+    width: 35%;
+}
+.h-105 {
+    height: 105%!important;
+}
+.wellcome_faq h4 {
+    font-size: 50px;
+}
+.wellcome_faq span {
+    color: #eff2f6;
+    font-size: 30px;
+}
+.card-header .chevron:after {
+    content: "\f078";
+}
+.card-header.collapsed .chevron:after {
+    content: "\f054";
+}
+#accordionPassenger button {
+    text-align: left;
+}
+#accordionDriver button {
+    text-align: left;
+}
+#accordionFranchise button {
+    text-align: left;
+}
+.card-header {
+    font-size: 20px;
+}
+.accordion .btn {white-space: normal;}
