@@ -11,10 +11,16 @@ import { RecursoComponent } from './recurso/recurso.component';
 import { VideoComponent } from './video/video.component';
 import { NumerosComponent } from './numeros/numeros.component';
 import { DownloadComponent } from './download/download.component';
+import { ServicoComponent } from './servico/servico.component';
+import { SectionDownloadComponent } from './section-download/section-download.component';
+import { LocalComponent } from './local/local.component';
+import { ContatoComponent } from './contato/contato.component';
+import { ModalDownloadComponent } from './modal-download/modal-download.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ModalDownloadComponent
   ],
   imports: [
     BrowserModule,

@@ -217,6 +217,14 @@ p {
     margin-top: 0;
 }
 
+small {
+    color: #726a84;
+}
+
+.single-special-white:hover small {
+    color: #fff;
+}
+
 .heading-text>p {
     font-size: 16px;
 }
@@ -226,6 +234,10 @@ p {
     color: #13569a;
     font-size: 46px;
     margin: 0;
+}
+
+#contato .section-heading>h5 {
+    color: #13569a;
 }
 
 .section-heading {
@@ -417,6 +429,12 @@ p {
     z-index: 1;
     background-position: bottom center;
     background-size: cover;
+    /*background-image: linear-gradient( to top left, #31a9e5, #2677ca, #1b65b0, #13569a);
+    background-image: -webkit-linear-gradient(to top left, #31a9e5, #2677ca, #1b65b0, #13569a);
+    background-image: -moz-linear-gradient(to top left, #31a9e5, #2677ca, #1b65b0, #13569a);
+    background-image: -o-linear-gradient(to top left, #31a9e5, #2677ca, #1b65b0, #13569a);*/
+}
+
 }
 
 .wellcome_area:after {
@@ -660,7 +678,7 @@ p {
     background-color: #f6a02f;
 }
 
-.app-download-btn a i { 
+.app-download-btn a i {
     color: #47425d;
     font-size: 24px;
     margin-right: 15px;
@@ -791,12 +809,11 @@ p {
 .cool_facts_area {
     position: relative;
     z-index: auto;
-    background: #a865e1;
-    background: -webkit-linear-gradient(to left, #2eaae6, #13569a);
-    background: -webkit-linear-gradient(right, #2eaae6, #13569a);
-    background: -webkit-gradient(linear, right top, left top, from(#13569a), to(#13569a));
-    background: -o-linear-gradient(right, #2eaae6, #13569a);
-    background: linear-gradient(to left, #2eaae6, #13569a);
+    background: #13569a;
+    background: linear-gradient( to left, #31a9e5, #2677ca, #1b65b0, #13569a);
+    background: -webkit-linear-gradient(to left, #31a9e5, #2677ca, #1b65b0, #13569a);
+    background: -moz-linear-gradient(to left, #31a9e5, #2677ca, #1b65b0, #13569a);
+    background: -o-linear-gradient(to left, #31a9e5, #2677ca, #1b65b0, #13569a);
     padding: 180px 0 80px 0;
     top: -100px;
 }
@@ -1090,12 +1107,11 @@ p {
 -------------------------- */
 
 .our-monthly-membership {
-    background: #a865e1;
-    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
-    background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
+    background: #13569a;
+    background: linear-gradient( to left, #31a9e5, #2677ca, #1b65b0, #13569a);
+    background: -webkit-linear-gradient(to left, #31a9e5, #2677ca, #1b65b0, #13569a);
+    background: -moz-linear-gradient(to left, #31a9e5, #2677ca, #1b65b0, #13569a);
+    background: -o-linear-gradient(to left, #31a9e5, #2677ca, #1b65b0, #13569a);
 }
 
 .membership-description>h2 {

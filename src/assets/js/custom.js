@@ -11,50 +11,50 @@
 
     $('#homo-driver-card').on('mouseenter', function() {
         var img = $(this).children('div').children('img');
-        img.attr('src', './assets/img/bg-img/DriverB.png');
+        img.attr('src', './assets/img/driver/driver-white.png');
     }).on('mouseleave', function() {
         var img = $(this).children('div').children('img');
-        img.attr('src', './assets/img/bg-img/Driver.png'); 
+        img.attr('src', './assets/img/driver/driver.png'); 
     });
 
     $('#homo-executive-card').on('mouseenter', function() {
         var img = $(this).children('div').children('img');
-        img.attr('src', './assets/img/bg-img/ExecutivoB.png');
+        img.attr('src', './assets/img/driver/executivo-white.png');
     }).on('mouseleave', function() {
         var img = $(this).children('div').children('img');
-        img.attr('src', './assets/img/bg-img/Executivo.png');
+        img.attr('src', './assets/img/driver/executivo.png');
     });
 
     $('#homo-lux-card').on('mouseenter', function() {
         var img = $(this).children('div').children('img');
-        img.attr('src', './assets/img/bg-img/LuxoB.png');
+        img.attr('src', './assets/img/driver/luxo-white.png');
     }).on('mouseleave', function() {
         var img = $(this).children('div').children('img');
-        img.attr('src', './assets/img/bg-img/Luxo.png');
+        img.attr('src', './assets/img/driver/luxo.png');
     });
 
     $('#homo-taxi-card').on('mouseenter', function() {
         var img = $(this).children('div').children('img');
-        img.attr('src', './assets/img/bg-img/TaxiB.png');
+        img.attr('src', './assets/img/driver/taxi-white.png');
     }).on('mouseleave', function() {
         var img = $(this).children('div').children('img');
-        img.attr('src', './assets/img/bg-img/Taxi.png');
+        img.attr('src', './assets/img/driver/taxi.png');
     });
 
     $('#homo-pet-card').on('mouseenter', function() {
         var img = $(this).children('div').children('img');
-        img.attr('src', './assets/img/bg-img/PetB.png');
+        img.attr('src', './assets/img/driver/pet-white.png');
     }).on('mouseleave', function() {
         var img = $(this).children('div').children('img');
-        img.attr('src', './assets/img/bg-img/Pet.png');
+        img.attr('src', './assets/img/driver/pet.png');
     });
 
     $('#homo-baby-card').on('mouseenter', function() {
         var img = $(this).children('div').children('img');
-        img.attr('src', './assets/img/bg-img/BabyB.png');
+        img.attr('src', './assets/img/driver/baby-white.png');
     }).on('mouseleave', function() {
         var img = $(this).children('div').children('img');
-        img.attr('src', './assets/img/bg-img/Baby.png');
+        img.attr('src', './assets/img/driver/baby.png');
     });
 
     $('.submit-btn').on('click', function(event) {

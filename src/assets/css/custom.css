@@ -142,12 +142,13 @@ strong {
 .single-special-white {
     border: 1px solid #eff2f6;
     background-color: #FFFFFF;
-    padding: 40px;
+    padding: 40px 20px;
     border-radius: 40px 40px 40px 0px;
     -webkit-transition-duration: 800ms;
     -o-transition-duration: 800ms;
     transition-duration: 800ms;
     margin-bottom: 30px;
+    min-height: 550px;
 }
 .special_description_content > h2 {
     color: #13569a;
@@ -205,7 +206,11 @@ strong {
     width: 35%;
 }
 .h-105 {
-    height: 105%!important;
+    height: 105% !important;
+}
+
+.h-115 {
+    height: 115% !important;
 }
 .wellcome_faq h4 {
     font-size: 50px;

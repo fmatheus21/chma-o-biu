@@ -1,0 +1,9 @@
+.video-area {
+    height: 430px;
+}
+
+@media(max-width: 768px) {
+    .video-area {
+        height: 260px;
+    }
+}

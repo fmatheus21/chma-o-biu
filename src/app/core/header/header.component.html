@@ -15,42 +15,40 @@
                         <!-- Menu Area -->
                         <div class="collapse navbar-collapse" id="ca-navbar">
                             <ul class="navbar-nav ml-auto" id="nav">
-                                <li class="nav-item dropdown" id="navbarDropdown">
-                                    <a class="nav-link menu-link dropdown-toggle" href="#parceiro">Motorista</a>
-
-                                    <div class="dropdown-menu" id="menudicas" aria-labelledby="navbarDropdown"
-                                        style="margin-top: 0px; border-top: 0px; padding-top: 0px; padding-bottom: 0px; border-radius: 30px">
-                                        <a class="nav-link menu-link dropdown-item" href="dicas.pdf" target="_blank"
-                                            style="font-size: 14.5px;" download><strong>Dicas</strong></a>
-                                    </div>
+                                <li class="nav-item">
+                                    <a class="nav-link menu-link" [routerLink]="['/']" fragment="sobre">Empresa</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link menu-link" href="#sobre">Empresa</a>
+                                    <a class="nav-link menu-link" [routerLink]="['/']" fragment="parceiro">Motorista</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link menu-link" href="#cliente">Passageiro</a>
+                                    <a class="nav-link menu-link" [routerLink]="['/']" fragment="cliente">Passageiro</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link menu-link" href="franquia.html">Franquia</a>
+                                    <a class="nav-link menu-link" [routerLink]="['/clube']">Clube Biu</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link menu-link" href="#download">Download</a>
+                                    <a class="nav-link menu-link" [routerLink]="['/']" fragment="download">Download</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link menu-link" href="#servicos">Serviços</a>
+                                    <a class="nav-link menu-link" [routerLink]="['/']" fragment="servicos">Serviços</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link menu-link" href="#locais">Locais</a>
+                                    <a class="nav-link menu-link" [routerLink]="['/']" fragment="locais">Locais</a>
                                 </li>
                                 <li class="nav-item dropdown" id="navbarDropdownHelp">
-                                    <a class="nav-link menu-link dropdown-toggle" href="#contato">Ajuda</a>
+                                    <a class="nav-link menu-link dropdown-toggle" [routerLink]="['/']"
+                                        fragment="contato">Ajuda</a>
 
-                                    <div class="dropdown-menu" id="menuajuda" aria-labelledby="navbarDropdownHelp"
-                                        style="margin-top: 0px; border-top: 0px; padding-top: 0px; padding-bottom: 0px; border-radius: 21px">
-                                        <a class="nav-link menu-link dropdown-item" href="#contato"
-                                            style="font-size: 14.5px; border-top-right-radius: 20px; border-top-left-radius: 20px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;"><strong>Contato</strong></a>
-                                        <a class="nav-link menu-link dropdown-item" id="faq-page" href="faq.html"
-                                            style="font-size: 14.5px; border-top-right-radius: 0px; border-top-left-radius: 0px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;"><strong>FAQ</strong></a>
+                                    <div class="dropdown-menu" id="menuajuda" aria-labelledby="navbarDropdownHelp">
+                                        <a class="nav-link menu-link dropdown-item href-1" [routerLink]="['/']"
+                                            fragment="contato">
+                                            <strong>Contato</strong>
+                                        </a>
+                                        <a class="nav-link menu-link dropdown-item href-2" id="faq-page"
+                                            href="faq.html">
+                                            <strong>FAQ</strong>
+                                        </a>
                                     </div>
                                 </li>
                                 <!-- <li class="nav-item">
@@ -58,7 +56,7 @@
                             </li> -->
                             </ul>
                             <div class="sing-up-button d-lg-none">
-                                <a href="#download">Quero ser motorista</a>
+                                <a [routerLink]="['/']" fragment="download">Quero ser motorista</a>
                             </div>
                         </div>
                     </nav>
@@ -67,7 +65,7 @@
             <!-- Signup btn -->
             <div class="col-12 col-lg-2">
                 <div class="sing-up-button d-none d-lg-block">
-                    <a href="#download">Quero ser motorista</a>
+                    <a [routerLink]="['/']" fragment="download">Quero ser motorista</a>
                 </div>
             </div>
         </div>

@@ -1,0 +1,23 @@
+#menuajuda {
+    margin-top: 0px;
+    border-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 21px
+}
+
+#menuajuda .href-1 {
+    font-size: 14.5px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#menuajuda .href-2 {
+    font-size: 14.5px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
