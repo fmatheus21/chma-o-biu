@@ -5,7 +5,8 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   // { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '', loadChildren: './home/home.module#HomeModule' },
-  { path: 'clube', loadChildren: './clube/clube.module#ClubeModule' }
+  { path: 'clube', loadChildren: './clube/clube.module#ClubeModule' },
+  { path: 'faq', loadChildren: './faq/faq.module#FaqModule' }
 ];
 
 @NgModule({

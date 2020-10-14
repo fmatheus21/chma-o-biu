@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScriptService } from 'src/app/script.service';
 
 @Component({
   selector: 'app-header',
@@ -7,10 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private scriptService: ScriptService) { }
 
   ngOnInit() {
+    this.scriptService.loadExternalScript('./assets/js/nav.js').then(() => { }).catch(() => { });
   }
-  
+
 
 }

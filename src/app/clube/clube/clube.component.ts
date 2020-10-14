@@ -11,11 +11,8 @@ export class ClubeComponent implements OnInit {
   constructor(private scriptService: ScriptService) { }
 
   ngOnInit() {
-
-    this.scriptService.loadExternalScript('./assets/js/plugins.js').then(() => { }).catch(() => { });
     this.scriptService.loadExternalScript('./assets/js/active.js').then(() => { }).catch(() => { });
-
-
+    this.scriptService.loadExternalScript('./assets/js/custom.js').then(() => { }).catch(() => { });
   }
 
 }

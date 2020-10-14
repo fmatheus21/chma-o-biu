@@ -6,8 +6,8 @@
                 <div class="menu_area">
                     <nav class="navbar navbar-expand-lg navbar-light" style="padding-left: 0; padding-right: 0;">
                         <!-- Logo -->
-                        <a class="navbar-brand" href="#principal">
-                            <img class="img-logo" src="./assets/img/logo.png" width="100">
+                        <a class="navbar-brand" [routerLink]="['/']" >
+                            <img class="img-logo" src="./assets/img/logo/logo.webp" width="100">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar"
                             aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span
@@ -19,26 +19,19 @@
                                     <a class="nav-link menu-link" [routerLink]="['/']" fragment="sobre">Empresa</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link menu-link" [routerLink]="['/']" fragment="parceiro">Motorista</a>
+                                    <a class="nav-link menu-link" [routerLink]="['/']" fragment="parceiro">Motoristas</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link menu-link" [routerLink]="['/']" fragment="cliente">Passageiro</a>
+                                    <a class="nav-link menu-link" [routerLink]="['/']" fragment="cliente">Passageiros</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link menu-link" [routerLink]="['/clube']">Clube Biu</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link menu-link" [routerLink]="['/']" fragment="download">Download</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link menu-link" [routerLink]="['/']" fragment="servicos">Serviços</a>
-                                </li>
-                                <li class="nav-item">
                                     <a class="nav-link menu-link" [routerLink]="['/']" fragment="locais">Locais</a>
-                                </li>
+                                </li>                                                             
                                 <li class="nav-item dropdown" id="navbarDropdownHelp">
-                                    <a class="nav-link menu-link dropdown-toggle" [routerLink]="['/']"
-                                        fragment="contato">Ajuda</a>
+                                    <a class="nav-link menu-link dropdown-toggle" href="javascript:void(0);">Ajuda</a>
 
                                     <div class="dropdown-menu" id="menuajuda" aria-labelledby="navbarDropdownHelp">
                                         <a class="nav-link menu-link dropdown-item href-1" [routerLink]="['/']"
@@ -46,17 +39,23 @@
                                             <strong>Contato</strong>
                                         </a>
                                         <a class="nav-link menu-link dropdown-item href-2" id="faq-page"
-                                            href="faq.html">
-                                            <strong>FAQ</strong>
+                                        [routerLink]="['/faq']">
+                                            <strong>Faq</strong>
                                         </a>
                                     </div>
                                 </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link menu-link" [routerLink]="['/']" fragment="download">Download</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link menu-link" [routerLink]="['/']" fragment="servicos">Serviços</a>
+                                </li> -->  
                                 <!-- <li class="nav-item">
                                 <a class="nav-link menu-link" href="#contato">Contato</a>
                             </li> -->
                             </ul>
                             <div class="sing-up-button d-lg-none">
-                                <a [routerLink]="['/']" fragment="download">Quero ser motorista</a>
+                                <a [routerLink]="['/']" fragment="download">Quero Ser Motorista</a>
                             </div>
                         </div>
                     </nav>

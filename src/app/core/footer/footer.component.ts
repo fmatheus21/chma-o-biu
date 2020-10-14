@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScriptService } from 'src/app/script.service';
 
 @Component({
   selector: 'app-footer',
@@ -10,7 +11,6 @@ export class FooterComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-
   }
 
 }

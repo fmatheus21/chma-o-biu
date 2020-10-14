@@ -1,0 +1,95 @@
+<section class="wellcome_faq clearfix" id="principal">
+    <div class="container h-105">
+        <div class="row h-105 align-items-center">
+            <div class="col-12 col-md-8 offset-md-2 text-center">
+                <div class="wellcome-heading" style="margin-bottom:0">
+                    <h4>FAQ</h4>
+                    <span>Tire suas dúvidas</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="awesome-feature-area bg-white section_padding_0_50 pt-80 clearfix" id="franquia">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Heading Text -->
+                <div class="section-heading text-center">
+                    <h2 class="section-title" style="font-size: 34px;">Passageiro</h2>
+                    <div class="line-shape"></div>
+
+                    <div id="accordionPassenger" class="pt-60 accordion" style="text-align: left;">
+
+                        <div class="card" *ngFor="let faqPassageiro of arrayFaqPassageiro">
+                            <button class="btn btn-link" style="padding: 0; border: 0;" type="button"
+                                data-toggle="collapse" [attr.data-target]="faqPassageiro.dataTarget" aria-expanded="true"
+                                [attr.aria-controls]="faqPassageiro.labelLedby">
+                                <div class="card-header" [attr.id]="faqPassageiro.labelLedby">
+                                    <strong>{{faqPassageiro.pergunta}}</strong>
+                                    <i class='fa fa-angle-right pull-right'></i>
+                                </div>
+                            </button>
+
+                            <div [attr.id]="faqPassageiro.id" class="collapse"
+                                [attr.aria-labelledby]="faqPassageiro.labelLedby" data-parent="#accordionPassenger">
+                                <div class="card-body">
+                                    <span class="text-gray">{{faqPassageiro.resposta}}</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+</section>
+
+
+
+<section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="franquia">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Heading Text -->
+                <div class="section-heading text-center">
+                    <h2 class="section-title" style="font-size: 34px;">Motorista</h2>
+                    <div class="line-shape"></div>
+
+                    <div id="accordionDriver" class="pt-60 accordion" style="text-align: left;">
+
+
+
+                        <div class="card" *ngFor="let faqMotorista of arrayFaqMotorista">
+                            <button class="btn btn-link" style="padding: 0; border: 0;" type="button"
+                                data-toggle="collapse" [attr.data-target]="faqMotorista.dataTarget" aria-expanded="true"
+                                [attr.aria-controls]="faqMotorista.labelLedby">
+                                <div class="card-header" [attr.id]="faqMotorista.labelLedby">
+                                    <strong>{{faqMotorista.pergunta}}</strong>
+                                    <i class='fa fa-angle-right pull-right'></i>
+                                </div>
+                            </button>
+
+                            <div [attr.id]="faqMotorista.id" class="collapse"
+                                [attr.aria-labelledby]="faqMotorista.labelLedby" data-parent="#accordionDriver">
+                                <div class="card-body">
+                                    <span class="text-gray">{{faqMotorista.resposta}}</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+</section>

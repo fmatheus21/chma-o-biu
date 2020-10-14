@@ -13,7 +13,6 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
 
-
     /*this.scriptService.loadExternalScript('./assets/js/jquery-2.2.4.min.js').then(() => { }).catch(() => { });
     this.scriptService.loadExternalScript('./assets/js/popper.min.js').then(() => { }).catch(() => { });
     this.scriptService.loadExternalScript('./assets/js/bootstrap.min.js').then(() => { }).catch(() => { });
